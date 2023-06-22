@@ -7,7 +7,7 @@ For this project, I choose the dataset from the Loan Prediction Competition on K
 
 As opposed to deep learning, traditional machine learning algorithms give a more generalized performance across datasets. I attempted to observe this further in end-to-end implementation of loan prediction machine learning project -
 
-# Machine Learning Solution Approaches for Loan Predictio
+# Machine Learning Solution Approaches for Loan Prediction
 
 1. Support Vector Machine (Classifier) : Support Vector Machine (SVM) is a supervised machine learning algorithm that generates a hyperplane (a decision boundary) to separate classes even in a high-dimensional vector space. SVM is particularly useful in loan prediction because this task usually has several features that need to be considered for the final decision.
 
