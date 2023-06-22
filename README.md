@@ -7,6 +7,8 @@ For this project, I choose the dataset from the Loan Prediction Competition on K
 
 As opposed to deep learning, traditional machine learning algorithms give a more generalized performance across datasets. I attempted to observe this further in end-to-end implementation of loan prediction machine learning project -
 
+# Machine Learning Solution Approaches for Loan Predictio
+
 1. Support Vector Machine (Classifier) : Support Vector Machine (SVM) is a supervised machine learning algorithm that generates a hyperplane (a decision boundary) to separate classes even in a high-dimensional vector space. SVM is particularly useful in loan prediction because this task usually has several features that need to be considered for the final decision.
 
 2. XGBoost : "Boosting" is a method that combines individual models in an ensemble manner to gain higher performance gain.Extreme Gradient Boost (XGBoost) is an improvement over Gradient Boost and is very popular in binary classification algorithms. The decision trees are built in parallel in XGBoost than in series, giving it an edge over normal Decision Trees and Boosting algorithms.
