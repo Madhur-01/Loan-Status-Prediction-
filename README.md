@@ -22,6 +22,8 @@ As opposed to deep learning, traditional machine learning algorithms give a more
 
  2. Random Forest Classifier : The test accuracy is less than 79% (around 78.8%) which is slightly better than a single decision tree. Credit history, loan amount, and applicant income greatly influence the final decision. For instance, applicants with very high incomes and co-applicant income with a good credit history have an excellent chance of getting loan approval.
 
- 3. Decision Tree : Test accuracy for the decision tree is around 78%. Most other features added little to no influence over the final prediction. This hints at a problem which resulted in most of our models performing similarly. One of the features is significantly more important than the rest, and thus, it biases the loan prediction model performance.
+ 3. Support Vector Classification : the model performed best on a linear kernel with regularization factor C as 1.0 and produced a test score of 78.9%.
 
+ 4. Decision Tree : Test accuracy for the decision tree is around 78%. Most other features added little to no influence over the final prediction. This hints at a problem which resulted in most of our models performing similarly. One of the features is significantly more important than the rest, and thus, it biases the loan prediction model performance.
 
+From this project we can conclude that SVM, XGBoost, and Random Forest are some of the best performing ML models for performing loan prediction and building a loan prediction machine learning project.
