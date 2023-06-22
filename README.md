@@ -3,7 +3,7 @@ In this project I analysied various Machine Learning algorithms to predict loan 
 
 Several collections of data from past loan applicants use different features to decide the loan status. A machine learning model can look at this data, which could be static or time-series, and give a probability estimate of whether this loan will be approved.
 
-For this project, we choose the dataset from the Loan Prediction Competition on Kaggle. It has 12 features, one target variable, and 614 samples. The features include Income, Loan Amount, Credit History, Gender, Marital Status, Education, Dependents, and others. This straightforward dataset will be a good measure of finding which ML models work the best.
+For this project, I choose the dataset from the Loan Prediction Competition on Kaggle. It has 12 features, one target variable, and 614 samples. The features include Income, Loan Amount, Credit History, Gender, Marital Status, Education, Dependents, and others. This straightforward dataset will be a good measure of finding which ML models work the best.
 
 As opposed to deep learning, traditional machine learning algorithms give a more generalized performance across datasets. I attempted to observe this further in end-to-end implementation of loan prediction machine learning project -
 
@@ -12,3 +12,14 @@ As opposed to deep learning, traditional machine learning algorithms give a more
 2. XGBoost : "Boosting" is a method that combines individual models in an ensemble manner to gain higher performance gain.Extreme Gradient Boost (XGBoost) is an improvement over Gradient Boost and is very popular in binary classification algorithms. The decision trees are built in parallel in XGBoost than in series, giving it an edge over normal Decision Trees and Boosting algorithms.
 
 3. Random Forest Classifier : The random forest algorithm improves the flexibility and decision-making capacity of individual trees.Since we know the fundamentals of decision trees and how they choose features based on information gain, random forests would incorporate these benefits to give superior performance.
+
+
+ # Result 
+
+ 1. XGBoost : ON testing the test data, I fond that the final binary classification accuracy is around 78.9%. It had a more balanced performance. it found some importance in Property area, loan amount, co-applicant income, dependents, and marital status  in the prediction. However, credit history remains the most crucial feature in determining loan status.
+
+ 2. Random Forest Classifier : The test accuracy is less than 79% (around 78.8%) which is slightly better than a single decision tree. Credit history, loan amount, and applicant income greatly influence the final decision. For instance, applicants with very high incomes and co-applicant income with a good credit history have an excellent chance of getting loan approval.
+
+ 3. Decision Tree : Test accuracy for the decision tree is around 78%. Most other features added little to no influence over the final prediction. This hints at a problem which resulted in most of our models performing similarly. One of the features is significantly more important than the rest, and thus, it biases the loan prediction model performance.
+
+
