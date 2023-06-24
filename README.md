@@ -16,7 +16,7 @@ As opposed to deep learning, traditional machine learning algorithms give a more
 3. Random Forest Classifier : The random forest algorithm improves the flexibility and decision-making capacity of individual trees.Since we know the fundamentals of decision trees and how they choose features based on information gain, random forests would incorporate these benefits to give superior performance.
 
 
- # Result 
+ # Results
 
  1. XGBoost : ON testing the test data, I fond that the final binary classification accuracy is around 78.9%. It had a more balanced performance. it found some importance in Property area, loan amount, co-applicant income, dependents, and marital status  in the prediction. However, credit history remains the most crucial feature in determining loan status.
 
