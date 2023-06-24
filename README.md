@@ -18,7 +18,7 @@ As opposed to deep learning, traditional machine learning algorithms give a more
 
  # Results
 
- 1. XGBoost : ON testing the test data, I fond that the final binary classification accuracy is around 78.9%. It had a more balanced performance. it found some importance in Property area, loan amount, co-applicant income, dependents, and marital status  in the prediction. However, credit history remains the most crucial feature in determining loan status.
+ 1. XGBoost : On testing, I fond that the final binary classification accuracy is around 78.9%. It had a more balanced performance. it found some importance in Property area, loan amount, co-applicant income, dependents, and marital status  in the prediction. However, credit history remains the most crucial feature in determining loan status.
 
  2. Random Forest Classifier : The test accuracy is around 78%. Credit history, loan amount, and applicant income greatly influence the final decision. For instance, applicants with very high incomes and co-applicant income with a good credit history have an excellent chance of getting loan approval.
 
