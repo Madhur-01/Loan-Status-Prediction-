@@ -1,4 +1,3 @@
-# Loan-Status-Prediction-
 ![ui](https://github.com/Madhur-01/Loan-Status-Prediction/assets/108746195/9d90de32-55a7-43cd-82bf-b33e764cead7)
 In this project I build and deployed a UI website using Python Flask Server and Streamlit. I analysed various Machine Learning algorithms to predict loan status of a new applicant using various background informations about the applicant and deployed the best one.Parameters like credit score, loan amount, lifestyle, career, income and assets are the deciding factors in getting the loan approval.
 
