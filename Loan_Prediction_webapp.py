@@ -9,16 +9,16 @@ import pickle
 import streamlit as st
 import sklearn
 
-loaded_model = pickle.load(open(r"C:/Users/madhu/Dropbox/My PC (LAPTOP-9DI2D1AT)/Documents/GitHub/Loan-Status-Prediction/trained_model.sav", 'rb'))
+loaded_model = pickle.load(open(r"C:/Users/madhu/Dropbox/My PC (LAPTOP-9DI2D1AT)/Documents/GitHub/Loan-Status-Prediction-/trained_model.sav", 'rb'))
 
 #creating a function for prediction
 def loan_prediction(input_data) :
     prediction = loaded_model.predict(input_data)      
 
     if(prediction[0]==0):
-        return "I am sorry, you can't get loan"
+        return "I am sorry, you can't get loan."
     else :
-        return "Congratulations,you can get loan"
+        return "Congratulations,you can get loan."
 
 
 def main():
