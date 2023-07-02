@@ -1,5 +1,5 @@
 # Loan-Status-Prediction-
-In this project I analysied various Machine Learning algorithms to predict loan status of a new applicant using various background informations about the applicant.Parameters like credit score, loan amount, lifestyle, career, income and assets are the deciding factors in getting the loan approval.
+In this project I analysed various Machine Learning algorithms to predict loan status of a new applicant using various background informations about the applicant.Parameters like credit score, loan amount, lifestyle, career, income and assets are the deciding factors in getting the loan approval.
 
 Several collections of data from past loan applicants use different features to decide the loan status. A machine learning model can look at this data, which could be static or time-series, and give a probability estimate of whether this loan will be approved.
 
@@ -16,9 +16,9 @@ As opposed to deep learning, traditional machine learning algorithms give a more
 3. Random Forest Classifier : The random forest algorithm improves the flexibility and decision-making capacity of individual trees.Since we know the fundamentals of decision trees and how they choose features based on information gain, random forests would incorporate these benefits to give superior performance.
 
 
- # Result 
+ # Results
 
- 1. XGBoost : ON testing the test data, I fond that the final binary classification accuracy is around 78.9%. It had a more balanced performance. it found some importance in Property area, loan amount, co-applicant income, dependents, and marital status  in the prediction. However, credit history remains the most crucial feature in determining loan status.
+ 1. XGBoost : On testing, I fond that the final binary classification accuracy is around 78.9%. It had a more balanced performance. it found some importance in Property area, loan amount, co-applicant income, dependents, and marital status  in the prediction. However, credit history remains the most crucial feature in determining loan status.
 
  2. Random Forest Classifier : The test accuracy is around 78%. Credit history, loan amount, and applicant income greatly influence the final decision. For instance, applicants with very high incomes and co-applicant income with a good credit history have an excellent chance of getting loan approval.
 
