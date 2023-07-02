@@ -1,5 +1,5 @@
 # Loan-Status-Prediction-
-In this project I analysed various Machine Learning algorithms to predict loan status of a new applicant using various background informations about the applicant.Parameters like credit score, loan amount, lifestyle, career, income and assets are the deciding factors in getting the loan approval.
+In this project I build a UI website using Python Flask Server and Streamlit. I analysed various Machine Learning algorithms to predict loan status of a new applicant using various background informations about the applicant and deployed the best one.Parameters like credit score, loan amount, lifestyle, career, income and assets are the deciding factors in getting the loan approval.
 
 Several collections of data from past loan applicants use different features to decide the loan status. A machine learning model can look at this data, which could be static or time-series, and give a probability estimate of whether this loan will be approved.
 
@@ -26,4 +26,5 @@ As opposed to deep learning, traditional machine learning algorithms give a more
 
  4. Decision Tree : Test accuracy for the decision tree is around 78%. Most other features added little to no influence over the final prediction. This hints at a problem which resulted in most of our models performing similarly. One of the features is significantly more important than the rest, and thus, it biases the loan prediction model performance.
 
+After this analysis I decided to deploy Random Forest Classifier as it accounts all the parameters. 
 From this project we can conclude that SVM, XGBoost, and Random Forest are some of the best performing ML models for performing loan prediction and building a loan prediction machine learning project.
