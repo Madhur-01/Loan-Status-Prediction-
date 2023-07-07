@@ -8,8 +8,13 @@ import numpy as np
 import pickle
 import streamlit as st
 import sklearn
+import os
 
-loaded_model = pickle.load(open(r"C:/Users/madhu/Dropbox/My PC (LAPTOP-9DI2D1AT)/Documents/GitHub/Loan-Status-Prediction-/trained_model.pkl", 'rb'))
+path = 'C:/Users/madhu/Dropbox/My PC (LAPTOP-9DI2D1AT)/Documents/GitHub/Loan-Status-Prediction-/'
+path = os.path.dirname(path)
+my_file = path+'/trained_model.pkl'
+
+loaded_model = pickle.load(open(my_file, 'rb'))
 
 #creating a function for prediction
 def loan_prediction(input_data) :
