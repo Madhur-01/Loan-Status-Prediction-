@@ -11,10 +11,8 @@ import sklearn
 import os
 
 
-path = os.path.dirname(__file__)
-my_file = path+'/trained_model.pkl'
 
-loaded_model = pickle.load(open(my_file, 'rb'))
+loaded_model = pickle.load(open(r"C:/Users/madhu/Dropbox/My PC (LAPTOP-9DI2D1AT)/Documents/GitHub/Loan-Status-Prediction-/trained_model.pkl", 'rb'))
 
 #creating a function for prediction
 def loan_prediction(input_data) :
