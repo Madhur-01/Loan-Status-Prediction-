@@ -7,7 +7,6 @@ Created on Sun Jul  2 23:36:52 2023
 import numpy as np
 import pickle
 import streamlit as st
-!pip install sklearn
 import sklearn
 
 loaded_model = pickle.load(open(r"C:/Users/madhu/Dropbox/My PC (LAPTOP-9DI2D1AT)/Documents/GitHub/Loan-Status-Prediction-/trained_model.sav", 'rb'))
