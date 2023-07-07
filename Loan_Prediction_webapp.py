@@ -51,7 +51,7 @@ def main():
 
     LoanAmount = st.number_input('Loan Amount', min_value=1, max_value=1000)
 
-    Loan_Amount_Term = st.number_input('Loan Amount Term', min_value=10, max_value=480)
+    Loan_Amount_Term = st.number_input('Loan Amount Term (days)', min_value=10, max_value=480)
 
     Credit_History = st.selectbox('Do you have any Credit History?', ('Yes', 'No'))
     credit_history = 1 if Credit_History == 'Yes' else 0
