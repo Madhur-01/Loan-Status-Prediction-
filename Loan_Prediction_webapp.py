@@ -28,7 +28,7 @@ def loan_prediction(input_data) :
 
 def main():
     # Giving a title
-    st.title('Loan Prediction Web App')
+    st.title('Loan Status Prediction Web App')
 
     # Getting input data from the user
     Gender = st.selectbox('Please choose your Gender', ('Male', 'Female'))
