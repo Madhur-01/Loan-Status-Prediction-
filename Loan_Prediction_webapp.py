@@ -10,8 +10,8 @@ import streamlit as st
 import sklearn
 import os
 
-path = 'C:/Users/madhu/Dropbox/My PC (LAPTOP-9DI2D1AT)/Documents/GitHub/Loan-Status-Prediction-/'
-path = os.path.dirname(path)
+
+path = os.path.dirname(__file__)
 my_file = path+'/trained_model.pkl'
 
 loaded_model = pickle.load(open(my_file, 'rb'))
