@@ -20,6 +20,8 @@ script_directory = os.path.dirname(script_path)
 # Assuming trained_model.pkl is located in the same directory as the script
 my_file = os.path.join(script_directory, 'trained_model.pkl')
 
+loaded_model = pickle.load(open(my_file, 'rb'))
+
 #creating a function for prediction
 def loan_prediction(input_data) :
     prediction = loaded_model.predict(input_data)      
