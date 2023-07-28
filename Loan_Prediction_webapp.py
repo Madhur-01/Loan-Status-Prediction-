@@ -12,10 +12,9 @@ import os
 
 
 path = os.path.dirname(__file__)
-my_file = path+'/trained_model.pkl'
+my_file = path+'/trained_model.sav'
 
-loaded_model = pickle.load(open('C:\\Users\\madhu\\Dropbox\\My PC (LAPTOP-9DI2D1AT)\\Documents\\GitHub\\Loan-Status-Prediction-\\trained_model.pkl', 'rb'))
-
+loaded_model = pickle.load(open(my_file, 'rb'))
 
 #creating a function for prediction
 def loan_prediction(input_data) :
