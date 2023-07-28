@@ -6,16 +6,15 @@ Created on Sun Jul  2 23:36:52 2023
 """
 import numpy as np
 import pickle
-import joblib
 import streamlit as st
 import sklearn
 import os
 
 
 path = os.path.dirname(__file__)
-my_file = path+'/trained_model.sav'
+my_file = path+'/trained_model.pkl'
 
-loaded_model = joblib.load(open(my_file, 'rb'))
+loaded_model = pickle.load(open(my_file, 'rb'))
 
 #creating a function for prediction
 def loan_prediction(input_data) :
