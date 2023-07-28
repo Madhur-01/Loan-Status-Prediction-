@@ -11,10 +11,14 @@ import sklearn
 import os
 
 
-path = os.path.dirname(__file__)
-my_file = path+'/trained_model.sav'
+# Get the absolute path to the current script
+script_path = os.path.abspath(__file__)
 
-loaded_model = pickle.load(open(my_file, 'rb'))
+# Get the directory of the current script
+script_directory = os.path.dirname(script_path)
+
+# Assuming trained_model.pkl is located in the same directory as the script
+my_file = os.path.join(script_directory, 'trained_model.pkl')
 
 #creating a function for prediction
 def loan_prediction(input_data) :
