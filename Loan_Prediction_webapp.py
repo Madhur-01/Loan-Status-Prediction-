@@ -6,7 +6,7 @@ Created on Sun Jul  2 23:36:52 2023
 """
 import numpy as np
 import pickle
-import joblob
+import joblib
 import streamlit as st
 import sklearn
 import os
